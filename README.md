@@ -1,2 +1,2 @@
-# OpenDDR-data
+# openddr-data
 Device Data Repository (DDR)
