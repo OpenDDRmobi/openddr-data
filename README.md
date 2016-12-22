@@ -1,5 +1,5 @@
 # openddr-data
-Device Data Repository (DDR)
+Device Definition Repository (DDR)
 
 ## Credits
 
