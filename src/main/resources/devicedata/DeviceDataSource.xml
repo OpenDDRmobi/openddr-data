@@ -14,7 +14,7 @@
 -->
 <ODDR>
 	<version>
-		<ver>1.31</ver>
+		<ver>1.32-SNAPSHOT</ver>
 		<last_updated>2016-12-23 03:00:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
@@ -24137,7 +24137,7 @@
 			<property name="displayHeight" value="800" />
 			<property name="mobile_browser" value="Android Webkit" />
 			<property name="device_os" value="Android" />
-			<property name="device_os_version" value="1.31" />
+			<property name="device_os_version" value="1.32-SNAPSHOT" />
 			<property name="inputDevices" value="touchscreen" />
 			<property name="dual_orientation" value="true" />
 			<property name="is_tablet" value="true" />

@@ -14,7 +14,7 @@
 -->
 <ODDR>
     <version>
-        <ver>1.31</ver>
+        <ver>1.32-SNAPSHOT</ver>
         <last_updated>2016-12-23 03:00:00</last_updated>
         <official_url>http://openddr.mobi</official_url>
         <statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0</statement>
