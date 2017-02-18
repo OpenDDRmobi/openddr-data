@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-    Copyright 2011-2016 OpenDDR LLC and others.
+    Copyright 2011-2017 OpenDDR LLC and others.
  
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -45319,6 +45319,28 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
+			<property name="from" value="oddr" />
+		</device>
+		<device id="ZenPad 10" parentId="genericAsus">
+			<property name="model" value="P00C Build/MRA58K" />
+			<property name="marketing_name" value="ASUS ZenPad 10" />
+			<property name="displayWidth" value="800" />
+			<property name="displayHeight" value="1280" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="6.0" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="is_tablet" value="true" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="weight" value="490 g" />
 			<property name="from" value="oddr" />
 		</device>
 		<device id="D5316" parentId="genericSonyEricsson">
