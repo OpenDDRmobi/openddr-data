@@ -45321,8 +45321,8 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 		</device>
-		<device id="ZenPad 10" parentId="genericAsus">
-			<property name="model" value="P00C Build/MRA58K" />
+		<device id="ASUS ZenPad 10" parentId="genericAsus">
+			<property name="model" value="P00C" />
 			<property name="marketing_name" value="ASUS ZenPad 10" />
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1280" />

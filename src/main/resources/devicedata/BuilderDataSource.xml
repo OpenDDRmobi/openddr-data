@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-    Copyright 2011-2016 OpenDDR LLC and others.
+    Copyright 2011-2017 OpenDDR LLC and others.
  
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -3409,6 +3409,17 @@
             <device id="ASUS Transformer Pad TF700KL">
                 <list>
                     <value>ASUS Transformer Pad TF700KL</value>
+                </list>
+            </device>
+            <device id="ASUS Transformer Pad TF700KL">
+                <list>
+                    <value>ASUS Transformer Pad TF700KL</value>
+                </list>
+            </device>
+                <device id="ASUS ZenPad 10">
+                <list>
+                    <value>ASUS ZenPad 10</value>
+                    <value>P00C</value>
                 </list>
             </device>
             <device id="XT389">
