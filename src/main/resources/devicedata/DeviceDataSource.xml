@@ -2540,6 +2540,26 @@
 			<property name="ajax_support_javascript" value="true" />
 			<property name="from" value="open_db_modified" />
 		</device>
+		<device id="ASUS-M80" parentId="genericAsus">
+			<property name="model" value="M80TA" />
+			<property name="displayWidth" value="1280" />
+			<property name="displayHeight" value="800" />
+			<property name="device_os_version" value="8.1" />
+			<property name="mobile_browser_version" value="11" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="device_os" value="Windows" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="xhtml_format_as_css_property" value="true" />
+			<property name="mobile_browser" value="IEMobile" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="speaker" value="true" />
+			<property name="audioJack" value="3.5mm" />
+			<property name="from" value="oddr" />
+		</device>
 		<device id="genericKyocera" parentId="generic-">
 			<property name="vendor" value="Kyocera" />
 		</device>
@@ -12728,6 +12748,7 @@
 			<property name="inputDevices" value="-" />
 			<property name="nokia_series" value="0" />
 			<property name="displayHeight" value="40" />
+			<property name="displayUnit" value="pixel" />
 			<property name="vendor" value="-" />
 			<property name="ajax_support_inner_html" value="false" />
 			<property name="ajax_manipulate_dom" value="false" />
@@ -45341,6 +45362,8 @@
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
 			<property name="weight" value="490 g" />
+			<property name="speaker" value="true" />
+			<property name="audioJack" value="3.5mm" />
 			<property name="from" value="oddr" />
 		</device>
 		<device id="D5316" parentId="genericSonyEricsson">

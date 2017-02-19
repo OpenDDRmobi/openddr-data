@@ -15,7 +15,7 @@
 <ODDR>
     <version>
         <ver>1.32-SNAPSHOT</ver>
-        <last_updated>2016-12-23 03:00:00</last_updated>
+        <last_updated>2017-02-19 18:32:00</last_updated>
         <official_url>http://openddr.mobi</official_url>
         <statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0</statement>
     </version>
@@ -10125,6 +10125,13 @@
             <device id="ASUS-P552w">
                 <list>
                     <value>ASUS-P552w</value>
+                </list>
+            </device>
+            <device id="ASUS-M80">
+                <list>
+                    <value>ASUS-M80</value>
+                    <value>M80TA</value>
+                    <value>M81C</value><!-- TODO separate device? -->
                 </list>
             </device>
             <device id="HTC_S740">
