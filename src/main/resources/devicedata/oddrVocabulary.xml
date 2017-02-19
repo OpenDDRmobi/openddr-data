@@ -15,7 +15,7 @@
 <ODDR>
 	<version>
 		<ver>1.32-SNAPSHOT</ver>
-		<last_updated>2017-02-18 18:52:00</last_updated>
+		<last_updated>2017-02-19 18:22:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -147,6 +147,12 @@
 				defaultAspect="device" name="sim" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="weight" />
+			<Property aspects="device" datatype="xs:string"
+				defaultAspect="device" name="displayUnit" />
+			<Property aspects="device" datatype="xs:boolean"
+				defaultAspect="device" name="speaker" />
+			<Property aspects="device" datatype="xs:string"
+				defaultAspect="device" name="audioJack" />
 		</Properties>
 	</VocabularyDescription>
 </ODDR>
