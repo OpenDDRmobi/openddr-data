@@ -15,7 +15,7 @@
 <ODDR>
 	<version>
 		<ver>1.32-SNAPSHOT</ver>
-		<last_updated>2017-02-18 18:52:00</last_updated>
+		<last_updated>2017-02-19 18:52:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -2540,8 +2540,32 @@
 			<property name="ajax_support_javascript" value="true" />
 			<property name="from" value="open_db_modified" />
 		</device>
+		<device id="ASUS-TF810C" parentId="genericAsus">
+			<property name="model" value="ASU2JS" />
+			<property name="marketing_name" value="ASUS VivoTab TF810C" />
+			<property name="displayWidth" value="1366" />
+			<property name="displayHeight" value="768" />
+			<property name="device_os_version" value="8.0" />
+			<property name="mobile_browser_version" value="10" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="device_os" value="Windows" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="xhtml_format_as_css_property" value="true" />
+			<property name="mobile_browser" value="IEMobile" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="width" value="11.6 in" />
+			<property name="depth" value="7.4 in" />
+			<property name="height" value="0.8 in" />
+			<property name="weight" value="2.95 lbs" />
+			<property name="from" value="oddr" />
+		</device>
 		<device id="ASUS-M80" parentId="genericAsus">
 			<property name="model" value="M80TA" />
+			<property name="marketing_name" value="ASUS VivoTab Note 8" />
 			<property name="displayWidth" value="1280" />
 			<property name="displayHeight" value="800" />
 			<property name="device_os_version" value="8.1" />
@@ -45353,6 +45377,7 @@
 			<property name="inputDevices" value="touchscreen" />
 			<property name="is_tablet" value="true" />
 			<property name="dual_orientation" value="true" />
+			<property name="default_orientation" value="landscape" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
 			<property name="ajax_support_inner_html" value="true" />
@@ -45376,6 +45401,7 @@
 			<property name="device_os_version" value="4.3" />
 			<property name="inputDevices" value="touchscreen" />
 			<property name="dual_orientation" value="true" />
+			<property name="default_orientation" value="portrait" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
 			<property name="ajax_support_inner_html" value="true" />

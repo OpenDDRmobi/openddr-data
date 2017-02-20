@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-    Copyright 2011-2017 OpenDDR LLC and others.
- 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    http://www.apache.org/licenses/LICENSE-2.0 Unless required by
-    applicable law or agreed to in writing, software distributed
-    under the License is distributed on an "AS IS" BASIS, WITHOUT
-    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions
-    and limitations under the License.
--->
+<!-- Copyright 2011-2017 OpenDDR LLC and others. Licensed under the Apache 
+	License, Version 2.0 (the "License"); you may not use this file except in 
+	compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
 <ODDR>
 	<version>
 		<ver>1.32-SNAPSHOT</ver>
-		<last_updated>2017-02-19 18:22:00</last_updated>
+		<last_updated>2017-02-19 19:19:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
 	</version>
 	<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:noNamespaceSchemaLocation="#mySchema">
-		<xs:schema id="mySchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		xsi:noNamespaceSchemaLocation="#oddr">
+		<xs:schema id="oddr" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 			<xs:element name="root">
 				<xs:simpleType name="deviceOrientation">
 					<xs:restriction base="xs:string">
@@ -31,6 +25,13 @@
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
+			<xs:complexType name="unitQuantity">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="quantityUnit" type="QuantityUnit" />
+					<xs:element minOccurs="0" name="quantity" type="NonNegativeDecimal" />
+				</xs:sequence>
+				<xs:attribute name="id" type="xsd:ID" />
+			</xs:complexType>
 		</xs:schema>
 	</root>
 	<!-- ODDR Vocabulary description -->
@@ -85,13 +86,13 @@
 			<Property name="scriptSupport" datatype="xs:enumeration"
 				aspects="webBrowser" defaultAspect="webBrowser" />
 			<!-- ODDR property -->
-			<Property aspects="device" datatype="xs:string"
+			<Property aspects="device, webBrowser" datatype="xs:string"
 				defaultAspect="device" name="mobile_browser" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="device_os" />
 			<Property aspects="device" datatype="xs:integer"
 				defaultAspect="device" name="nokia_series" />
-			<Property aspects="device" datatype="xs:string"
+			<Property aspects="device, webBrowser" datatype="xs:string"
 				defaultAspect="device" name="mobile_browser_version" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="is_tablet" />
@@ -135,9 +136,9 @@
 				defaultAspect="device" name="bluetooth" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="camera" />
-				<Property aspects="device" datatype="xs:string"
+			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="video" />
-			<Property aspects="device" datatype="dmap:deviceOrientation"
+			<Property aspects="device" datatype="oddr:deviceOrientation"
 				defaultAspect="device" name="default_orientation" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="multiTouch" />
@@ -145,8 +146,14 @@
 				defaultAspect="device" name="released" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="sim" />
-			<Property aspects="device" datatype="xs:string"
+			<Property aspects="device" datatype="oddr:unitQuantity"
+				defaultAspect="device" name="depth" />
+			<Property aspects="device" datatype="oddr:unitQuantity"
+				defaultAspect="device" name="height" />
+			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="weight" />
+			<Property aspects="device" datatype="oddr:unitQuantity"
+				defaultAspect="device" name="width" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="displayUnit" />
 			<Property aspects="device" datatype="xs:boolean"

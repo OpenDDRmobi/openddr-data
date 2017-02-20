@@ -2801,6 +2801,12 @@
                     <value>Transformer Infinity</value>
                 </list>
             </device>
+            <device id="ASUS-TF810C">
+                <list>
+                    <value>ASU2JS</value>
+                </list>
+            </device>
+            
             <device id="SHW-E250S">
                 <list>
                     <value>SHW-E250S</value>
