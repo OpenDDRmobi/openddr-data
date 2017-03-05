@@ -15,7 +15,7 @@
 <ODDR>
 	<version>
 		<ver>1.32-SNAPSHOT</ver>
-		<last_updated>2017-02-19 18:52:00</last_updated>
+		<last_updated>2017-03-05 18:52:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -16877,10 +16877,18 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 		</device>
-		<device id="PlayStation Portable" parentId="generic-">
+		<device id="PlayStation Portable" parentId="genericSony">
 			<property name="vendor" value="Sony" />
 			<property name="model" value="PlayStation Portable" />
 			<property name="marketing_name" value="PSP" />
+			<property name="displayWidth" value="480" />
+			<property name="displayHeight" value="272" />
+			<property name="from" value="oddr" />
+		</device>
+		<device id="PlayStation 2" parentId="genericSony">
+			<property name="vendor" value="Sony" />
+			<property name="model" value="PlayStation 2" />
+			<property name="marketing_name" value="PS2" />
 			<property name="displayWidth" value="480" />
 			<property name="displayHeight" value="272" />
 			<property name="from" value="oddr" />
