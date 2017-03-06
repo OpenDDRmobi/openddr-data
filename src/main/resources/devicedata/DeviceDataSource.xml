@@ -16889,8 +16889,8 @@
 			<property name="vendor" value="Sony" />
 			<property name="model" value="PlayStation 2" />
 			<property name="marketing_name" value="PS2" />
-			<property name="displayWidth" value="480" />
-			<property name="displayHeight" value="272" />
+			<property name="displayWidth" value="800" />
+			<property name="displayHeight" value="600" />
 			<property name="from" value="oddr" />
 		</device>
 		<device id="Vodafone735" parentId="genericHuawei">
@@ -17693,7 +17693,23 @@
 			<property name="nokia_edition" value="6" />
 			<property name="from" value="oddr" />
 		</device>
-		<device id="PLAYSTATION_3" parentId="generic-">
+		<device id="PLAYSTATION_2" parentId="genericSony">
+			<property name="vendor" value="Sony" />
+			<property name="model" value="Playstation 2" />
+			<property name="displayWidth" value="800" />
+			<property name="displayHeight" value="600" />
+			<property name="is_wireless_device" value="false" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="from" value="oddr" />
+		</device>
+		<device id="PLAYSTATION_3" parentId="genericSony">
 			<property name="vendor" value="Sony" />
 			<property name="model" value="Playstation 3" />
 			<property name="displayWidth" value="800" />

@@ -14066,12 +14066,6 @@
 					<value>PlayStation Portable</value>
 				</list>
 			</device>
-			<device id="PlayStation 2">
-				<list>
-					<value>PS2</value>
-					<value>PlayStation 2</value>
-				</list>
-			</device>
 			<device id="Z715e">
 				<list>
 					<value>HTC</value>
@@ -14202,6 +14196,11 @@
 				<list>
 					<value>Nokia</value>
 					<value>300</value>
+				</list>
+			</device>
+			<device id="PLAYSTATION_2">
+				<list>
+					<value>PS2</value>
 				</list>
 			</device>
 			<device id="PLAYSTATION_3">
