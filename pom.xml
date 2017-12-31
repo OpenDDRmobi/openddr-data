@@ -11,7 +11,7 @@
 	<groupId>mobi.openddr</groupId>
 	<artifactId>openddr-data</artifactId>
 	<packaging>jar</packaging>
-	<version>1.32-SNAPSHOT</version>
+	<version>1.32</version>
 	<name>OpenDDR Data</name>
 	<description>OpenDDR Device Description Repository</description>
 	<url>http://openddr.mobi/</url>
@@ -49,7 +49,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
