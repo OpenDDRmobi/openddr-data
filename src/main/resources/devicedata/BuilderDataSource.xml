@@ -735,6 +735,11 @@ the specific language governing permissions and limitations under the License. -
                     <value>SM-T525</value>
                 </list>
             </device>
+            <device id="SM-T820">
+                <list>
+                    <value>SM-T820</value>
+                </list>
+            </device>
             <device id="GT-I9152P">
                 <list>
                     <value>GT-I9152P</value>

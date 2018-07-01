@@ -45824,8 +45824,9 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
-			<property name="memoryInternal" value="64MB, 4GB RAM" />
+			<property name="memoryInternal" value="64GB, 4GB RAM" />
 			<property name="memoryExternal" value="MicroSD, MicroSDHC, MicroSDXC, 256GB" />
+			<property name="camera" value="16MP, 5312x2988, 2MP, 1600x1200" />
 			<property name="from" value="oddr" />
 	      </device>
           <device id="SAMSUNG SM-A520F" parentId="genericSamsung">
@@ -46746,6 +46747,29 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
+			<property name="from" value="oddr" />
+	      </device>
+	      <device id="SAMSUNG SM-T820" parentId="genericSamsung">
+			<property name="model" value="SM-T820" />
+			<property name="marketing_name" value="Galaxy Tab S3" />
+			<property name="displayWidth" value="1536" />
+			<property name="displayHeight" value="2048" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="7.0" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="memoryInternal" value="64GB, 4GB RAM" />
+			<property name="memoryExternal" value="MicroSD, MicroSDHC, MicroSDXC, 256GB" />
+			<property name="camera" value="12 MP rear, 5 MP front" />
 			<property name="from" value="oddr" />
 	      </device>
 	</Devices>
