@@ -135,15 +135,16 @@ the specific language governing permissions and limitations under the License. -
                     <value>SAMSUNG SM-J730F</value>
                 </list>
             </device>
-            <device id="LG G5">
+            <device id="LG-H820">
                 <list>
                     <value>LG-H820</value>
                     <value>H820</value>
                 </list>
             </device>
-            <device id="LG G6">
+            <device id="LG-H870">
                 <list>
                     <value>LG-H870</value>
+                     <value>H870</value>
                     <value>LG G6</value>
                 </list>
             </device>
