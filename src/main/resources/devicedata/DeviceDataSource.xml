@@ -46589,7 +46589,31 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="LG-H870" parentId="genericLG">
+	      <device id="LG-H820" parentId="genericLG">
+			<property name="model" value="LG-H820" />
+			<property name="marketing_name" value="G5" />
+			<property name="displayWidth" value="1440" />
+			<property name="displayHeight" value="2560" />
+			<property name="mobile_browser" value="Android Webkit" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="6.0" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="weight" value="159 g" />
+			<property name="memoryInternal" value="64GB, 4GB RAM" />
+			<property name="memoryExternal" value="MicroSD, MicroSDHC, MicroSDXC, 256GB" />
+			<property name="camera" value="Dual: 16 MP (f/1.8, 29mm, 1/2.6, laser AF, 3-axis OIS) + 8 MP (f/2.4, 12mm, 1/3.2, no AF), LED flash" />
+			<property name="from" value="oddr" />
+	      </device>
+          <device id="LG-H870" parentId="genericLG">
 			<property name="model" value="H870" />
 			<property name="marketing_name" value="G6" />
 			<property name="displayWidth" value="1440" />
@@ -46609,7 +46633,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-               <device id="SAMSUNG SM-J730F" parentId="genericSamsung">
+          <device id="SAMSUNG SM-J730F" parentId="genericSamsung">
 			<property name="model" value="SM-J730F" />
 			<property name="marketing_name" value="Galaxy J7 (2017) Dual Sim" />
 			<property name="displayWidth" value="1080" />
@@ -46629,7 +46653,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SAMSUNG SM-J330FN" parentId="genericSamsung">
+          <device id="SAMSUNG SM-J330FN" parentId="genericSamsung">
 			<property name="model" value="SM-J330FN" />
 			<property name="marketing_name" value="Galaxy J3" />
 			<property name="displayWidth" value="720" />
@@ -46649,7 +46673,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SM-A320F" parentId="genericSamsung">
+          <device id="SM-A320F" parentId="genericSamsung">
 			<property name="model" value="SM-A320F" />
 			<property name="marketing_name" value="Galaxy A3" />
 			<property name="displayWidth" value="720" />
@@ -46669,7 +46693,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-               <device id="SAMSUNG SM-A310F" parentId="genericSamsung">
+          <device id="SAMSUNG SM-A310F" parentId="genericSamsung">
 			<property name="model" value="SM-A310F" />
 			<property name="marketing_name" value="Galaxy A3" />
 			<property name="displayWidth" value="720" />
