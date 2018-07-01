@@ -46289,7 +46289,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="WAS-LX1" parentId="genericHuawei">
+          <device id="WAS-LX1" parentId="genericHuawei">
 			<property name="model" value="WAS-LX1" />
 			<property name="marketing_name" value="P10 Lite Dual" />
 			<property name="displayWidth" value="1080" />
@@ -46797,7 +46797,7 @@
 			<property name="from" value="oddr" />
 	      </device>
 	      <device id="NOKIA 2" parentId="genericNokia">
-			<property name="model" value="NOKIA 2" />
+			<property name="model" value="2" />
 			<property name="marketing_name" value="NOKIA 2" />
 			<property name="displayWidth" value="720" />
 			<property name="displayHeight" value="1280" />
@@ -46817,7 +46817,17 @@
 			<property name="memoryInternal" value="8 GB, 1 GB RAM" />
 			<property name="memoryExternal" value="microSD, up to 128 GB " />
 			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
-			<property name="weight" value="161 g" />
+			<property name="weight" value="161 g" />^
+			<property name="audioJack" value="3.5mm" />
+			<property name="release-year" value="2017" />
+			<property name="from" value="oddr" />
+	      </device>
+	      <device id="NOKIA 2.1" parentId="NOKIA 2">
+			<property name="model" value="2.1" />
+			<property name="marketing_name" value="NOKIA 2.1" />
+			<property name="device_os_version" value="8.1" />
+			<property name="release-year" value="2018" />
+			<property name="released" value="July 2018" />
 			<property name="from" value="oddr" />
 	      </device>
 	</Devices>

@@ -9700,6 +9700,13 @@ the specific language governing permissions and limitations under the License. -
                      <value>2</value>
                 </list>
             </device>
+            <device id="NOKIA 2.1">
+                <list>
+                    <value>Nokia 2.1</value>
+                    <value>Nokia</value>
+                     <value>2.1</value>
+                </list>
+            </device>
         </builder>
         <builder class="mobi.openddr.simple.builder.device.SymbianDeviceBuilder">
             <device id="Nokia600">

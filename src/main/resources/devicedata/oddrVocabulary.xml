@@ -144,6 +144,8 @@
 				defaultAspect="device" name="multiTouch" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="released" />
+			<Property aspects="device" datatype="xs:integer"
+				defaultAspect="device" name="release-year" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="sim" />
 			<Property aspects="device" datatype="oddr:unitQuantity"
