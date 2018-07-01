@@ -46614,7 +46614,7 @@
 			<property name="from" value="oddr" />
 	      </device>
           <device id="LG-H870" parentId="genericLG">
-			<property name="model" value="H870" />
+			<property name="model" value="LG-H870" />
 			<property name="marketing_name" value="G6" />
 			<property name="displayWidth" value="1440" />
 			<property name="displayHeight" value="2880" />
