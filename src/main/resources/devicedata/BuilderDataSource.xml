@@ -143,6 +143,7 @@ the specific language governing permissions and limitations under the License. -
             <device id="LG-H870">
                 <list>
                     <value>LG-H870</value>
+                    <value>LG G6</value>
                 </list>
             </device>
             <device id="SAMSUNG SM-J330F">
