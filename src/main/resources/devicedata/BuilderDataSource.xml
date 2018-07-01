@@ -138,6 +138,7 @@ the specific language governing permissions and limitations under the License. -
             <device id="LG G5">
                 <list>
                     <value>LG-H820</value>
+                    <value>H820</value>
                 </list>
             </device>
             <device id="LG G6">

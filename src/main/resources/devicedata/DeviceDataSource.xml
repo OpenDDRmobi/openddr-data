@@ -46569,7 +46569,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SAMSUNG SM-J330F" parentId="genericSamsung">
+          <device id="SAMSUNG SM-J330F" parentId="genericSamsung">
 			<property name="model" value="SM-J330F" />
 			<property name="marketing_name" value="Galaxy J3 Duos" />
 			<property name="displayWidth" value="720" />
