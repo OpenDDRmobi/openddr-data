@@ -165,6 +165,12 @@ the specific language governing permissions and limitations under the License. -
                     <value>SAMSUNG SM-G920F</value>
                 </list>
             </device>
+            <device id="SAMSUNG SM-T820">
+                <list>
+                    <value>SM-T820</value>
+                    <value>SM-T825</value>
+                </list>
+            </device>
             <device id="SM-N920F">
                 <list>
                     <value>SM-N920F</value>
@@ -733,12 +739,6 @@ the specific language governing permissions and limitations under the License. -
             <device id="SM-T525">
                 <list>
                     <value>SM-T525</value>
-                </list>
-            </device>
-            <device id="SM-T820">
-                <list>
-                    <value>SM-T820</value>
-                    <value>SM-T825</value>
                 </list>
             </device>
             <device id="GT-I9152P">
