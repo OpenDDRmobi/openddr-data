@@ -46589,8 +46589,8 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-	      <device id="LG-H820" parentId="genericLG">
-			<property name="model" value="LG-H820" />
+	      <device id="LG G5" parentId="genericLG">
+			<property name="model" value="H820" />
 			<property name="marketing_name" value="G5" />
 			<property name="displayWidth" value="1440" />
 			<property name="displayHeight" value="2560" />
@@ -46613,8 +46613,8 @@
 			<property name="camera" value="Dual: 16 MP (f/1.8, 29mm, 1/2.6, laser AF, 3-axis OIS) + 8 MP (f/2.4, 12mm, 1/3.2, no AF), LED flash" />
 			<property name="from" value="oddr" />
 	      </device>
-          <device id="LG-H870" parentId="genericLG">
-			<property name="model" value="LG-H870" />
+          <device id="LG G6" parentId="genericLG">
+			<property name="model" value="H870" />
 			<property name="marketing_name" value="G6" />
 			<property name="displayWidth" value="1440" />
 			<property name="displayHeight" value="2880" />
