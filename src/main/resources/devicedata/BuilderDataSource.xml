@@ -335,6 +335,11 @@ the specific language governing permissions and limitations under the License. -
                     <value>ALE-L21</value>
                 </list>
             </device>
+            <device id="RNE-L21">
+                <list>
+                    <value>RNE-L21</value>
+                </list>
+            </device>
             <device id="EVA-L29">
                 <list>
                     <value>EVA-L29</value>
