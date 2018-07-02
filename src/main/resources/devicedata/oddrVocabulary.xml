@@ -153,6 +153,8 @@
 			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="height" />
 			<Property aspects="device" datatype="oddr:unitQuantity"
+				defaultAspect="device" name="thickness" />
+			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="weight" />
 			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="width" />
