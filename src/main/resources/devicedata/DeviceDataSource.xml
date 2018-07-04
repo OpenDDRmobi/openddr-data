@@ -46834,5 +46834,33 @@
 			<property name="height" value="77.6 mm" />
 			<property name="from" value="oddr" />
 	      </device>
+	      <device id="NOKIA 3" parentId="genericNokia">
+			<property name="model" value="3" />
+			<property name="marketing_name" value="NOKIA 3" />
+			<property name="displayWidth" value="720" />
+			<property name="displayHeight" value="1280" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="7.1.1" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="memoryInternal" value="16 GB, 2 GB RAM" />
+			<property name="memoryExternal" value="microSD, up to 128 GB " />
+			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
+			<property name="weight" value="161 g" />
+			<property name="audioJack" value="3.5mm" />
+			<property name="announced" value="2017, February" />
+			<property name="release-year" value="2017" />
+			<property name="released" value="2017, June" />
+			<property name="from" value="oddr" />
+	      </device>
 	</Devices>
 </ODDR>

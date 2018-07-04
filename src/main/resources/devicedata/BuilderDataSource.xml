@@ -9707,6 +9707,13 @@ the specific language governing permissions and limitations under the License. -
                      <value>21</value>
                 </list>
             </device>
+            <device id="NOKIA 3">
+                <list>
+                    <value>Nokia 3</value>
+                    <value>Nokia</value>
+                    <value>3</value>
+                </list>
+            </device>
         </builder>
         <builder class="mobi.openddr.simple.builder.device.SymbianDeviceBuilder">
             <device id="Nokia600">
