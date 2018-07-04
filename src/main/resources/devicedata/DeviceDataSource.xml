@@ -46796,7 +46796,7 @@
 			<property name="camera" value="12 MP rear, 5 MP front" />
 			<property name="from" value="oddr" />
 	      </device>
-	      <device id="NOKIA 2" parentId="genericNokia">
+	      <device id="Nokia2" parentId="genericNokia">
 			<property name="model" value="2" />
 			<property name="marketing_name" value="NOKIA 2" />
 			<property name="displayWidth" value="720" />
@@ -46822,7 +46822,7 @@
 			<property name="release-year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
-	      <device id="NOKIA 2.1" parentId="NOKIA 2">
+	      <device id="Nokia2.1" parentId="Nokia2">
 			<property name="model" value="2.1" />
 			<property name="marketing_name" value="NOKIA 2.1" />
 			<property name="device_os_version" value="8.1" />
@@ -46834,7 +46834,7 @@
 			<property name="height" value="77.6 mm" />
 			<property name="from" value="oddr" />
 	      </device>
-	      <device id="NOKIA 3" parentId="genericNokia">
+	      <device id="Nokia3" parentId="genericNokia">
 			<property name="model" value="3" />
 			<property name="marketing_name" value="NOKIA 3" />
 			<property name="displayWidth" value="720" />
@@ -46852,7 +46852,7 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
-			<property name="memoryInternal" value="16 GB, 2 GB RAM" />
+			<property name="memoryInternal" value="16 GB, 2 GB/3 GB RAM" />
 			<property name="memoryExternal" value="microSD, up to 128 GB " />
 			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
 			<property name="weight" value="161 g" />
@@ -46860,6 +46860,16 @@
 			<property name="announced" value="2017, February" />
 			<property name="release-year" value="2017" />
 			<property name="released" value="2017, June" />
+			<property name="from" value="oddr" />
+	      </device>
+	      <device id="Nokia3.1" parentId="Nokia3">
+			<property name="model" value="3.1" />
+			<property name="marketing_name" value="NOKIA 3.1" />
+			<property name="device_os_version" value="8.0.0" />
+			<property name="weight" value="138.3 g" />
+			<property name="announced" value="2018 May" />
+			<property name="release-year" value="2018" />
+			<property name="released" value="2018, June" />
 			<property name="from" value="oddr" />
 	      </device>
 	</Devices>

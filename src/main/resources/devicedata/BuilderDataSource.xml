@@ -9693,25 +9693,32 @@ the specific language governing permissions and limitations under the License. -
                     <value>ISW11HT</value>
                 </list>
             </device>
-            <device id="NOKIA 2">
+            <device id="Nokia2">
                 <list>
                     <value>Nokia 2</value>
                     <value>Nokia</value>
                      <value>2</value>
                 </list>
             </device>
-            <device id="NOKIA 2.1">
+            <device id="Nokia2.1">
                 <list>
                     <value>Nokia 2.1</value>
                     <value>Nokia</value>
                      <value>21</value>
                 </list>
             </device>
-            <device id="NOKIA 3">
+            <device id="Nokia3">
                 <list>
                     <value>Nokia 3</value>
                     <value>Nokia</value>
                     <value>3</value>
+                </list>
+            </device>
+            <device id="Nokia3.1">
+                <list>
+                    <value>Nokia 3.1</value>
+                    <value>Nokia</value>
+                    <value>31</value>
                 </list>
             </device>
         </builder>
