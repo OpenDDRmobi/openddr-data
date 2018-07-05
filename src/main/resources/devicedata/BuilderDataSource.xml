@@ -9737,7 +9737,6 @@ the specific language governing permissions and limitations under the License. -
             </device>
             <device id="Nokia6.1">
                 <list>
-                    <value>Nokia 6.1</value>
                     <value>Nokia</value>
                     <value>61</value>
                 </list>
