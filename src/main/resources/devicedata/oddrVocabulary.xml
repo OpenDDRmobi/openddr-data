@@ -189,8 +189,6 @@
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="memoryInternal" />
 			<Property aspects="device" datatype="xs:string"
-				defaultAspect="device" name="memoryInternal" />
-			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="memoryExternal" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="nfc" />
