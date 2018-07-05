@@ -9693,6 +9693,13 @@ the specific language governing permissions and limitations under the License. -
                     <value>ISW11HT</value>
                 </list>
             </device>
+            <device id="PixelXL">
+                <list>
+                    <value>Pixel XL</value>
+                     <value>Pixel</value>
+                     <value>XL</value>
+                </list>
+            </device>
             <device id="Nokia2">
                 <list>
                     <value>Nokia 2</value>

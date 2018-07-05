@@ -29249,6 +29249,33 @@
 			<property name="inputDevices" value="touchscreen" />
 			<property name="from" value="devicemap" />
 		</device>
+		<device id="PixelXL" parentId="genericGoogle">
+			<property name="model" value="Pixel XL" />
+			<property name="marketing_name" value="Pixel XL" />
+			<property name="displayWidth" value="1440" />
+			<property name="displayHeight" value="2560" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="7.1" />
+			<property name="dual_orientation" value="true" />
+			<property name="is_tablet" value="false" />
+			<property name="is_mobile" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="cpu" value="Qualcomm Snapdragon 821" />
+			<property name="cpuRegister" value="64-Bit" />
+			<property name="cpuCores" value="Quad-Core" />
+			<property name="cpuFrequency" value="2150 MHz" />
+			<property name="memoryInternal" value="32/128GB, 4GB RAM" />
+			<property name="from" value="openddr" />
+		</device>
 		<device id="SCH-S720C" parentId="genericSamsung">
 			<property name="model" value="SCH-S720C" />
 			<property name="marketing_name" value="Galaxy Proclaim" />
