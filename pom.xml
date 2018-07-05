@@ -10,7 +10,7 @@
 
 	<artifactId>openddr-data</artifactId>
 	<packaging>jar</packaging>
-	<version>1.33</version>
+	<version>1.34-SNAPSHOT</version>
 	<name>OpenDDR Data</name>
 	<description>OpenDDR Device Description Repository</description>
 	<url>http://openddr.mobi/</url>
