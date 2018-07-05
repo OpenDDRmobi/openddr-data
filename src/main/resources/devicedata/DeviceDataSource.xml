@@ -14,8 +14,8 @@
 -->
 <ODDR>
 	<version>
-		<ver>1.33-SNAPSHOT</ver>
-		<last_updated>2017-10-20 18:52:00</last_updated>
+		<ver>1.33</ver>
+		<last_updated>2018-07-04 23:59:04</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -46870,6 +46870,7 @@
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="7.1.1" />
 			<property name="inputDevices" value="touchscreen" />
+			<property name="is_mobile" value="true" />
 			<property name="dual_orientation" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
@@ -46908,6 +46909,7 @@
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="7.1.1" />
 			<property name="inputDevices" value="touchscreen" />
+			<property name="is_mobile" value="true" />
 			<property name="dual_orientation" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
@@ -46937,6 +46939,37 @@
 			<property name="memoryInternal" value="32 GB / 64 GB, 3 GB /4 GB RAM" />
 			<property name="release-year" value="2018" />
 			<property name="released" value="2018, April" />
+			<property name="from" value="oddr" />
+	      </device>
+	      <device id="Nokia8" parentId="genericNokia">
+			<property name="model" value="8" />
+			<property name="marketing_name" value="NOKIA 8" />
+			<property name="displayWidth" value="1440" />
+			<property name="displayHeight" value="2560" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="7.1.1" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="is_mobile" value="true" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="cpu" value="Qualcomm Snapdragon 835" />
+			<property name="cpuCores" value="8-Core" />
+			<property name="cpuFrequency" value="2.5 GHz" />
+			<property name="cpuRegister" value="64-Bit" />
+			<property name="memoryInternal" value="64 GB, 4 GB RAM" />
+			<property name="memoryExternal" value="microSD, up to 256 GB " />
+			<property name="camera" value="13 MP, AF, LED flash rear, 5 MP front" />
+			<property name="weight" value="160 g" />
+			<property name="audioJack" value="3.5mm" />
+			<property name="release-year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
 	</Devices>
