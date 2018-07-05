@@ -46922,9 +46922,21 @@
 			<property name="memoryInternal" value="16 GB, 3 GB RAM" />
 			<property name="memoryExternal" value="microSD, up to 128 GB " />
 			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
-			<property name="weight" value="161 g" />
+			<property name="weight" value="143 g" />
 			<property name="audioJack" value="3.5mm" />
 			<property name="release-year" value="2017" />
+			<property name="from" value="oddr" />
+	      </device>
+	      <device id="Nokia6.1" parentId="Nokia6">
+			<property name="model" value="6.1" />
+			<property name="marketing_name" value="NOKIA 6.1" />
+			<property name="device_os_version" value="8.1.0" />
+			<property name="cpu" value="Qualcomm Snapdragon 630" />
+			<property name="cpuFrequency" value="2.2 GHz" />
+			<property name="weight" value="172 g" />
+			<property name="memoryInternal" value="32 GB / 64 GB, 3 GB /4 GB RAM" />
+			<property name="release-year" value="2018" />
+			<property name="released" value="2018, April" />
 			<property name="from" value="oddr" />
 	      </device>
 	</Devices>
