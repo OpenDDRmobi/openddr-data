@@ -8,8 +8,8 @@ OR CONDITIONS OF ANY KIND, either express or implied. See the License for
 the specific language governing permissions and limitations under the License. -->
 <ODDR>
     <version>
-        <ver>1.33-SNAPSHOT</ver>
-        <last_updated>2017-10-20 18:52:00</last_updated>
+        <ver>1.33</ver>
+		<last_updated>2018-07-04 23:59:04</last_updated>
         <official_url>http://openddr.mobi</official_url>
         <statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
         </statement>
