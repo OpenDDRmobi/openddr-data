@@ -46899,5 +46899,33 @@
 			<property name="released" value="2018, June" />
 			<property name="from" value="oddr" />
 	      </device>
+	      <device id="Nokia6" parentId="genericNokia">
+			<property name="model" value="6" />
+			<property name="marketing_name" value="NOKIA 6" />
+			<property name="displayWidth" value="1080" />
+			<property name="displayHeight" value="1920" />
+			<property name="mobile_browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="7.1.1" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="dual_orientation" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="cpu" value="Qualcomm Snapdragon 430" />
+			<property name="cpuFrequency" value="1.4 GHz" />
+			<property name="memoryInternal" value="16 GB, 3 GB RAM" />
+			<property name="memoryExternal" value="microSD, up to 128 GB " />
+			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
+			<property name="weight" value="161 g" />
+			<property name="audioJack" value="3.5mm" />
+			<property name="release-year" value="2017" />
+			<property name="from" value="oddr" />
+	      </device>
 	</Devices>
 </ODDR>
