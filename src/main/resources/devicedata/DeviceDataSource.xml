@@ -15,7 +15,7 @@
 <ODDR>
 	<version>
 		<ver>1.34-SNAPSHOT</ver>
-		<last_updated>2019-03-24 16:59:00</last_updated>
+		<last_updated>2019-03-24 17:17:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -20614,6 +20614,9 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
+			<property name="features">
+				<wifi>true</wifi>
+			</property>
 			<property name="from" value="oddr" />
 		</device>
 		<device id="Sprint SCP-3820" parentId="genericSanyo">
@@ -46972,5 +46975,31 @@
 			<property name="release-year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
+	     <device id="SM-T807V" parentId="genericSamsung">
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="marketing_name" value="Galaxy Tab 10.5" />
+			<property name="dual_orientation" value="true" />
+			<property name="device_os_version" value="4.4" />
+			<property name="ajax_support_events" value="true" />
+			<property name="image_inlining" value="true" />
+			<property name="displayHeight" value="1280" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="model" value="SM-T807V" />
+			<property name="displayWidth" value="800" />
+			<property name="device_os" value="Android" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="mobile_browser" value="Android Webkit" />
+			<property name="mobile_browser_version" value="4.0" />
+			<property name="is_tablet" value="true" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="from" value="open_db_modified" />
+			<property name="types">
+				<tablet>true</tablet>
+			</property>
+		</device>
 	</Devices>
 </ODDR>

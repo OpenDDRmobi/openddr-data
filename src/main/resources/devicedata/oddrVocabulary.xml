@@ -9,7 +9,7 @@
 <ODDR>
 	<version>
 		<ver>1.34-SNAPSHOT</ver>
-		<last_updated>2019-03-23 23:59:59</last_updated>
+		<last_updated>2019-03-24 17:17:59</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -40,16 +40,23 @@
 			</xs:complexType>
 			<xs:complexType name="deviceType">
       			<xs:sequence>
-      				<xsd:element name="calculator" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="desktop" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="foldable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="gameConsole" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="notebook" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="pager" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="pda" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xsd:element name="phone" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-         			<xsd:element name="tablet" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-         			<xsd:element name="wearable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="calculator" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="desktop" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="foldable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="gameConsole" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="notebook" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="pager" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="pda" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="phone" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+         			<xs:element name="tablet" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+         			<xs:element name="wearable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			</xs:sequence>
+   			</xs:complexType>
+   			<xs:complexType name="deviceFeature">
+      			<xs:sequence>
+      			    <xs:element name="nfc" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="wifi" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			    <xs:element name="vpn" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
 		</xs:schema>
@@ -204,12 +211,10 @@
 				defaultAspect="device" name="memoryInternal" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="memoryExternal" />
-			<Property aspects="device" datatype="xs:boolean"
-				defaultAspect="device" name="nfc" />
-			<Property aspects="device" datatype="xs:boolean"
-				defaultAspect="device" name="wifi" />
-			<Property aspects="device" datatype="xs:boolean"
-				defaultAspect="device" name="vpn" />
+			<Property aspects="device" datatype="oddr:deviceType"
+				defaultAspect="device" name="types" />
+			<Property aspects="device" datatype="oddr:deviceFeature"
+				defaultAspect="device" name="features" />
 		</Properties>
 	</VocabularyDescription>
 </ODDR>
