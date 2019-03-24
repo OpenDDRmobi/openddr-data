@@ -59,6 +59,12 @@
       			    <xs:element name="vpn" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
+   			<xs:complexType name="deviceMemory">
+      			<xs:sequence>
+      			    <xs:element name="internal" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="external" type="xs:string" minOccurs="0" maxOccurs="1"/>
+       			</xs:sequence>
+   			</xs:complexType>
 		</xs:schema>
 	</root>
 	<!-- ODDR Vocabulary description -->
@@ -208,13 +214,15 @@
 			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="maxBandwidth" />
 			<Property aspects="device" datatype="xs:string"
-				defaultAspect="device" name="memoryInternal" />
+				defaultAspect="device" name="memoryInternal" /><!-- deprecated use memory -->
 			<Property aspects="device" datatype="xs:string"
-				defaultAspect="device" name="memoryExternal" />
+				defaultAspect="device" name="memoryExternal" /><!-- deprecated use memory -->
 			<Property aspects="device" datatype="oddr:deviceType"
 				defaultAspect="device" name="types" />
 			<Property aspects="device" datatype="oddr:deviceFeature"
 				defaultAspect="device" name="features" />
+			<Property aspects="device" datatype="oddr:deviceMemory"
+				defaultAspect="device" name="memory" />
 		</Properties>
 	</VocabularyDescription>
 </ODDR>
