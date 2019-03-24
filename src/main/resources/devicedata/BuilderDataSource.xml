@@ -15786,7 +15786,6 @@ the specific language governing permissions and limitations under the License. -
             </device>
              <device id="SM-T807V">
                <list>
-                    <value>Samsung</value>
                     <value>SM-T807V</value>
                 </list>
             </device>
