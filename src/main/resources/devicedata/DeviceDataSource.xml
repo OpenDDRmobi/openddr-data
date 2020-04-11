@@ -45443,6 +45443,9 @@
 			<property name="weight" value="490 g" />
 			<property name="speaker" value="true" />
 			<property name="audioJack" value="3.5mm" />
+			<property name="types">
+				<tablet>true</tablet>
+			</property>
 			<property name="from" value="oddr" />
 		</device>
 		<device id="D5316" parentId="genericSonyEricsson">
@@ -45536,7 +45539,7 @@
 			<property name="camera" value="Front: 1.2-megapixel, Rear: 5-megapixel" />
 			<property name="from" value="devicemap" />
 		</device>
-                <device id="SAMSUNG SM-G930F" parentId="genericSamsung">
+        <device id="SAMSUNG SM-G930F" parentId="genericSamsung">
 			<property name="model" value="SM-G930F" />
 			<property name="marketing_name" value="Galaxy S7" />
 			<property name="displayWidth" value="1440" />
@@ -45556,7 +45559,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SM-G930FD" parentId="genericSamsung">
+          <device id="SM-G930FD" parentId="genericSamsung">
 			<property name="model" value="SM-G930FD" />
 			<property name="marketing_name" value="Galaxy S7 Duos" />
 			<property name="displayWidth" value="1440" />
@@ -45576,7 +45579,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SM-G935FD" parentId="genericSamsung">
+          <device id="SM-G935FD" parentId="genericSamsung">
 			<property name="model" value="SM-G935FD" />
 			<property name="marketing_name" value="Galaxy S7 Edge Duos" />
 			<property name="displayWidth" value="1440" />
@@ -45596,7 +45599,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SAMSUNG SM-G935F" parentId="genericSamsung">
+          <device id="SAMSUNG SM-G935F" parentId="genericSamsung">
 			<property name="model" value="SAMSUNG SM-G935F" />
 			<property name="marketing_name" value="Galaxy S7 Edge" />
 			<property name="displayWidth" value="1440" />
@@ -45616,7 +45619,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="HUAWEI VNS-L31" parentId="genericHuawei">
+          <device id="HUAWEI VNS-L31" parentId="genericHuawei">
 			<property name="model" value="VNS-L31" />
 			<property name="marketing_name" value="P9 lite" />
 			<property name="displayWidth" value="1080" />
@@ -45636,7 +45639,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="HUAWEI VNS-L23" parentId="genericHuawei">
+          <device id="HUAWEI VNS-L23" parentId="genericHuawei">
 			<property name="model" value="VNS-L31" />
 			<property name="marketing_name" value="P9 lite" />
 			<property name="displayWidth" value="1080" />
@@ -45656,7 +45659,7 @@
 			<property name="image_inlining" value="true" />
 			<property name="from" value="oddr" />
 	      </device>
-              <device id="SM-J530F" parentId="genericSamsung">
+          <device id="SM-J530F" parentId="genericSamsung">
 			<property name="model" value="SM-J530F" />
 			<property name="marketing_name" value="Galaxy J5" />
 			<property name="displayWidth" value="720" />
