@@ -20614,7 +20614,7 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
-			<property name="features">
+			<property name="network">
 				<wifi>true</wifi>
 			</property>
 			<property name="from" value="oddr" />
@@ -29262,7 +29262,7 @@
 			<property name="device_os_version" value="7.1" />
 			<property name="dual_orientation" value="true" />
 			<property name="is_tablet" value="false" />
-			<property name="is_mobile" value="true" />
+			<property name="is_wireless_device" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
 			<property name="ajax_support_inner_html" value="true" />
@@ -46876,7 +46876,7 @@
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="7.1.1" />
 			<property name="inputDevices" value="touchscreen" />
-			<property name="is_mobile" value="true" />
+			<property name="is_wireless_device" value="true" />
 			<property name="dual_orientation" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
@@ -46915,7 +46915,7 @@
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="7.1.1" />
 			<property name="inputDevices" value="touchscreen" />
-			<property name="is_mobile" value="true" />
+			<property name="is_wireless_device" value="true" />
 			<property name="dual_orientation" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
@@ -46956,7 +46956,7 @@
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="7.1.1" />
 			<property name="inputDevices" value="touchscreen" />
-			<property name="is_mobile" value="true" />
+			<property name="is_wireless_device" value="true" />
 			<property name="dual_orientation" value="true" />
 			<property name="ajax_support_javascript" value="true" />
 			<property name="ajax_support_getelementbyid" value="true" />
@@ -47030,5 +47030,37 @@
 		<device id="SM-N960F" parentId="SM-N960" />
 		<device id="SM-N960N" parentId="SM-N960" />
 		<device id="SM-N960U" parentId="SM-N960" />
+		<device id="LG-LM-V600" parentId="genericLG">
+			<property name="model" value="LM-V600" />
+			<property name="marketing_name" value="V60 ThinQ 5G" />
+			<property name="displayWidth" value="1080" />
+			<property name="displayHeight" value="2460" />
+			<property name="weight" value="218 g" />
+			<property name="mobile_browser" value="Android Webkit" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="10" />
+			<property name="dual_orientation" value="true" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_touch_events" value="true" />			
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="ajax_gesture_vents" value="none" />
+			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
+			<property name="image_inlining" value="true" />
+			<property name="types">
+				<phone>true</phone>
+				<foldable>true</foldable>
+			</property>
+			<property name="display">
+				<multiScreen>true</multiScreen>
+				<screens>2</screens>
+			</property>
+			<property name="from" value="oddr" />
+		</device>		
 	</Devices>
 </ODDR>

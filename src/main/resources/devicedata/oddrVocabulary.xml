@@ -52,11 +52,12 @@
          			<xs:element name="wearable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
-   			<xs:complexType name="deviceFeature">
+   			<xs:complexType name="deviceDisplay">
       			<xs:sequence>
-      			    <xs:element name="nfc" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      				<xs:element name="wifi" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      			    <xs:element name="vpn" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="width" datatype="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="height" datatype="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>      				
+         			<xs:element name="multiScreen" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+         			<xs:element name="screens" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
    			<xs:complexType name="deviceMemory">
@@ -64,6 +65,13 @@
       			    <xs:element name="internal" type="xs:string" minOccurs="0" maxOccurs="1"/>
       				<xs:element name="external" type="xs:string" minOccurs="0" maxOccurs="1"/>
        			</xs:sequence>
+   			</xs:complexType>
+   			<xs:complexType name="deviceNetwork">
+      			<xs:sequence>
+      			    <xs:element name="nfc" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="wifi" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			    <xs:element name="vpn" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			</xs:sequence>
    			</xs:complexType>
 		</xs:schema>
 	</root>
@@ -143,6 +151,8 @@
 				defaultAspect="device" name="xhtml_format_as_css_property" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="ajax_support_getelementbyid" />
+			<Property aspects="device" datatype="xs:string"
+				defaultAspect="device" name="ajax_preferred_geoloc_ap" />				
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="ajax_support_event_listener" />
 			<Property aspects="device" datatype="xs:boolean"
@@ -156,6 +166,10 @@
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="ajax_support_events" />
 			<Property aspects="device" datatype="xs:boolean"
+				defaultAspect="device" name="ajax_touch_events" />
+			<Property aspects="device" datatype="xs:boolean"
+				defaultAspect="device" name="ajax_gesture_events" />
+			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="dual_orientation" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="has_cellular_radio" />
@@ -219,8 +233,10 @@
 				defaultAspect="device" name="memoryExternal" /><!-- deprecated use memory -->
 			<Property aspects="device" datatype="oddr:deviceType"
 				defaultAspect="device" name="types" />
-			<Property aspects="device" datatype="oddr:deviceFeature"
-				defaultAspect="device" name="features" />
+			<Property aspects="device" datatype="oddr:deviceDisplay"
+				defaultAspect="device" name="display" />
+			<Property aspects="device" datatype="oddr:deviceNetwork"
+				defaultAspect="device" name="network" />
 			<Property aspects="device" datatype="oddr:deviceMemory"
 				defaultAspect="device" name="memory" />
 		</Properties>
