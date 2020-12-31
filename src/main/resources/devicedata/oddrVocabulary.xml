@@ -169,7 +169,7 @@
 				defaultAspect="device" name="ajax_touch_events" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="ajax_gesture_events" />
-			<Property aspects="device" datatype="xs:string"
+			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="dual_orientation" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="has_cellular_radio" />
@@ -201,6 +201,8 @@
 				defaultAspect="device" name="release-year" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="sim" />
+			<Property aspects="device" datatype="xs:boolean"
+				defaultAspect="device" name="dual_sim" />
 			<Property aspects="device" datatype="oddr:unitQuantity"
 				defaultAspect="device" name="depth" />
 			<Property aspects="device" datatype="oddr:unitQuantity"
