@@ -9,7 +9,7 @@
 <ODDR>
 	<version>
 		<ver>1.34-SNAPSHOT</ver>
-		<last_updated>2020-12-31 05:00:00</last_updated>
+		<last_updated>2020-12-31 19:00:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -71,6 +71,9 @@
       			    <xs:element name="nfc" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       				<xs:element name="wifi" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       			    <xs:element name="vpn" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			    <xs:element name="dnla" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			    <xs:element name="gps" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      			    <xs:element name="hotspot" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
 		</xs:schema>
@@ -198,9 +201,9 @@
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="released" />
 			<Property aspects="device" datatype="xs:integer"
-				defaultAspect="device" name="release-year" />
+				defaultAspect="device" name="release_year" />
 			<Property aspects="device" datatype="xs:string"
-				defaultAspect="device" name="sim" />
+				defaultAspect="device" name="sim_size" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="dual_sim" />
 			<Property aspects="device" datatype="oddr:unitQuantity"

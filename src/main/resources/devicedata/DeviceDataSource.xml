@@ -15,7 +15,7 @@
 <ODDR>
 	<version>
 		<ver>1.34-SNAPSHOT</ver>
-		<last_updated>2020-12-31 05:20:00</last_updated>
+		<last_updated>2020-12-31 19:00:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -39680,7 +39680,7 @@
 			<property name="displayWidth" value="600" />
 			<property name="displayHeight" value="1024" />
 			<property name="pixel_density_ppi" value="170" />
-			<property name="release-year" value="2013" />
+			<property name="release_year" value="2013" />
 		</device>
 		<device id="SM-T312" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T312" />
@@ -39688,7 +39688,7 @@
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1280" />
 			<property name="pixel_density_ppi" value="189" />
-			<property name="release-year" value="2013" />
+			<property name="release_year" value="2013" />
 		</device>
 		<device id="SM-T230" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T230" />
@@ -39696,7 +39696,7 @@
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1280" />
 			<property name="pixel_density_ppi" value="216" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T330" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T330" />
@@ -39704,7 +39704,7 @@
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1280" />
 			<property name="pixel_density_ppi" value="189" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T530" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T530" />
@@ -39712,7 +39712,7 @@
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1280" />
 			<property name="pixel_density_ppi" value="149" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T320" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T320" />
@@ -39720,7 +39720,7 @@
 			<property name="displayWidth" value="1600" />
 			<property name="displayHeight" value="2560" />
 			<property name="pixel_density_ppi" value="359" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T365" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T365" />
@@ -39728,7 +39728,7 @@
 			<property name="displayWidth" value="800" />
 			<property name="displayHeight" value="1200" />
 			<property name="pixel_density_ppi" value="189" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T700" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T700" />
@@ -39736,7 +39736,7 @@
 			<property name="displayWidth" value="1600" />
 			<property name="displayHeight" value="2560" />
 			<property name="pixel_density_ppi" value="359" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T800" parentId="genericGalaxyTab">
 			<property name="model" value="SM-T800" />
@@ -39744,7 +39744,7 @@
 			<property name="displayWidth" value="1600" />
 			<property name="displayHeight" value="2560" />
 			<property name="pixel_density_ppi" value="288" />
-			<property name="release-year" value="2014" />
+			<property name="release_year" value="2014" />
 		</device>
 		<device id="SM-T217S" parentId="genericSamsung">
 			<property name="model" value="SM-T217S" />
@@ -43108,7 +43108,7 @@
 			<property name="inputDevices" value="touchscreen" />
 			<property name="multiTouch" value="true" />
 			<property name="weight" value="120 g"/>
-			<property name="sim" value="Mini-SIM"/>
+			<property name="sim_size" value="Mini-SIM"/>
 			<property name="from" value="devicemap" />
 		</device>
 		<device id="SM-P605V" parentId="genericSamsung">
@@ -46852,14 +46852,14 @@
 			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
 			<property name="weight" value="161 g" />
 			<property name="audioJack" value="3.5mm" />
-			<property name="release-year" value="2017" />
+			<property name="release_year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
 	      <device id="Nokia2.1" parentId="Nokia2">
 			<property name="model" value="2.1" />
 			<property name="marketing_name" value="NOKIA 2.1" />
 			<property name="device_os_version" value="8.1" />
-			<property name="release-year" value="2018" />
+			<property name="release_year" value="2018" />
 			<property name="released" value="July 2018" />
 			<property name="weight" value="174 g" />
 			<property name="thickness" value="9.67 mm" />
@@ -46892,7 +46892,7 @@
 			<property name="weight" value="161 g" />
 			<property name="audioJack" value="3.5mm" />
 			<property name="announced" value="2017, February" />
-			<property name="release-year" value="2017" />
+			<property name="release_year" value="2017" />
 			<property name="released" value="2017, June" />
 			<property name="from" value="oddr" />
 	      </device>
@@ -46902,7 +46902,7 @@
 			<property name="device_os_version" value="8.0.0" />
 			<property name="weight" value="138.3 g" />
 			<property name="announced" value="2018 May" />
-			<property name="release-year" value="2018" />
+			<property name="release_year" value="2018" />
 			<property name="released" value="2018, June" />
 			<property name="from" value="oddr" />
 	      </device>
@@ -46932,7 +46932,7 @@
 			<property name="camera" value="8 MP, AF, LED flash rear, 5 MP front" />
 			<property name="weight" value="143 g" />
 			<property name="audioJack" value="3.5mm" />
-			<property name="release-year" value="2017" />
+			<property name="release_year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
 	      <device id="Nokia6.1" parentId="Nokia6">
@@ -46943,7 +46943,7 @@
 			<property name="cpuFrequency" value="2.2 GHz" />
 			<property name="weight" value="172 g" />
 			<property name="memoryInternal" value="32 GB / 64 GB, 3 GB /4 GB RAM" />
-			<property name="release-year" value="2018" />
+			<property name="release_year" value="2018" />
 			<property name="released" value="2018, April" />
 			<property name="from" value="oddr" />
 	      </device>
@@ -46975,7 +46975,7 @@
 			<property name="camera" value="13 MP, AF, LED flash rear, 5 MP front" />
 			<property name="weight" value="160 g" />
 			<property name="audioJack" value="3.5mm" />
-			<property name="release-year" value="2017" />
+			<property name="release_year" value="2017" />
 			<property name="from" value="oddr" />
 	      </device>
 	     <device id="SM-T807V" parentId="genericSamsung">
@@ -47022,7 +47022,7 @@
 			<property name="ajax_support_events" value="true" />
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="image_inlining" value="true" />
-			<property name="release-year" value="2018" />
+			<property name="release_year" value="2018" />
 			<property name="weight" value="201 g" />
 			<property name="inputDevices" value="touchscreen" />
 			<property name="from" value="oddr" />
@@ -47085,10 +47085,18 @@
 			<property name="ajax_gesture_vents" value="none" />
 			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
 			<property name="dual_sim" value="true" />
+			<property name="sim_size" value="Nano-SIM"/>
 			<property name="image_inlining" value="true" />
-			<property name="release-year" value="2020" />
+			<property name="release_year" value="2020" />
+			<property name="product_code" value="LM-K410EMW" />
 			<property name="types">
 				<phone>true</phone>
+			</property>
+			<property name="network">
+				<dnla>true</dnla>
+				<nfc>true</nfc>
+				<gps>true</gps>
+				<hotspot>true</hotspot>
 			</property>
 			<property name="from" value="oddr" />
 		</device>
