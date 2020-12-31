@@ -47095,9 +47095,9 @@
 		<device id="LG-LM-X430" parentId="genericLG">
 			<property name="model" value="LM-X430" />
 			<property name="marketing_name" value="K40s" />
-			<property name="displayWidth" value="1080" />
-			<property name="displayHeight" value="2460" />
-			<property name="weight" value="218 g" />
+			<property name="displayWidth" value="720" />
+			<property name="displayHeight" value="1560" />
+			<property name="weight" value="173 g" />
 			<property name="browser" value="Chrome" />
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="9" />
@@ -47115,6 +47115,8 @@
 			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
 			<property name="bluetooth_version" value="5.0" />
 			<property name="image_inlining" value="true" />
+			<property name="product_code" value="LMX430EMW.ADECBK, LMX430EMW.ADECBL" />
+			<property name="ean" value="8806087040524, 8806087040531" />
 			<property name="types">
 				<phone>true</phone>
 			</property>

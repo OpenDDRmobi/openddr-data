@@ -241,6 +241,10 @@
 				defaultAspect="device" name="network" />
 			<Property aspects="device" datatype="oddr:deviceMemory"
 				defaultAspect="device" name="memory" />
+			<Property aspects="device" datatype="xs:string"
+				defaultAspect="device" name="product_code" />
+			<Property aspects="device" datatype="xs:string"
+				defaultAspect="device" name="ean" />
 		</Properties>
 	</VocabularyDescription>
 </ODDR>
