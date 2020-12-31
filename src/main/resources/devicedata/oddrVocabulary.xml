@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Copyright 2011-2019 OpenDDR LLC and others. Licensed under the Apache 
+<!-- Copyright 2011-2020 OpenDDR LLC and others. Licensed under the Apache 
 	License, Version 2.0 (the "License"); you may not use this file except in 
 	compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
 	Unless required by applicable law or agreed to in writing, software distributed 
@@ -9,7 +9,7 @@
 <ODDR>
 	<version>
 		<ver>1.34-SNAPSHOT</ver>
-		<last_updated>2019-03-24 17:17:59</last_updated>
+		<last_updated>2020-12-31 05:00:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -182,7 +182,7 @@
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="is_bot" />
 			<Property aspects="device" datatype="xs:string"
-				defaultAspect="device" name="bluetooth" />
+				defaultAspect="device" name="bluetooth_version" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="camera" />
 			<Property aspects="device" datatype="xs:boolean"

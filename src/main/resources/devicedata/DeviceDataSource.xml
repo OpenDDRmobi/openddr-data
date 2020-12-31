@@ -6951,7 +6951,7 @@
 			<property name="ajax_support_event_listener" value="true" />
 			<property name="is_tablet" value="true" />
 			<property name="inputDevices" value="touchscreen" />
-			<property name="bluetooth" value="4.0" />
+			<property name="bluetooth_version" value="4.0" />
 			<property name="camera" value="Front: 0.3-megapixel, Rear: 2-megapixel" />
 			<property name="from" value="devicemap" />
 		</device>
@@ -47036,9 +47036,42 @@
 			<property name="displayWidth" value="1080" />
 			<property name="displayHeight" value="2460" />
 			<property name="weight" value="218 g" />
-			<property name="mobile_browser" value="Android Webkit" />
+			<property name="browser" value="Chrome" />
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="10" />
+			<property name="dual_orientation" value="true" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_touch_events" value="true" />			
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="ajax_gesture_vents" value="none" />
+			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
+			<property name="bluetooth_version" value="5.1" />
+			<property name="image_inlining" value="true" />
+			<property name="types">
+				<phone>true</phone>
+				<foldable>true</foldable>
+			</property>
+			<property name="display">
+				<multiScreen>true</multiScreen>
+				<screens>2</screens>
+			</property>
+			<property name="from" value="oddr" />
+		</device>
+		<device id="LG-LM-K410" parentId="genericLG">
+			<property name="model" value="LM-K410" />
+			<property name="marketing_name" value="V60 ThinQ 5G" />
+			<property name="displayWidth" value="1080" />
+			<property name="displayHeight" value="2460" />
+			<property name="weight" value="173 g" />
+			<property name="mobile_browser" value="Android Webkit" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="9" />
 			<property name="dual_orientation" value="true" />
 			<property name="inputDevices" value="touchscreen" />
 			<property name="ajax_support_javascript" value="true" />
@@ -47054,13 +47087,36 @@
 			<property name="image_inlining" value="true" />
 			<property name="types">
 				<phone>true</phone>
-				<foldable>true</foldable>
-			</property>
-			<property name="display">
-				<multiScreen>true</multiScreen>
-				<screens>2</screens>
 			</property>
 			<property name="from" value="oddr" />
-		</device>		
+		</device>
+		<device id="LG-LM-X430" parentId="genericLG">
+			<property name="model" value="LM-X430" />
+			<property name="marketing_name" value="K40s" />
+			<property name="displayWidth" value="1080" />
+			<property name="displayHeight" value="2460" />
+			<property name="weight" value="218 g" />
+			<property name="browser" value="Chrome" />
+			<property name="device_os" value="Android" />
+			<property name="device_os_version" value="9" />
+			<property name="dual_orientation" value="true" />
+			<property name="inputDevices" value="touchscreen" />
+			<property name="ajax_support_javascript" value="true" />
+			<property name="ajax_support_getelementbyid" value="true" />
+			<property name="ajax_support_inner_html" value="true" />
+			<property name="ajax_manipulate_dom" value="true" />
+			<property name="ajax_manipulate_css" value="true" />
+			<property name="ajax_support_events" value="true" />
+			<property name="ajax_touch_events" value="true" />			
+			<property name="ajax_support_event_listener" value="true" />
+			<property name="ajax_gesture_vents" value="none" />
+			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
+			<property name="bluetooth_version" value="5.0" />
+			<property name="image_inlining" value="true" />
+			<property name="types">
+				<phone>true</phone>
+			</property>
+			<property name="from" value="oddr" />
+		</device>
 	</Devices>
 </ODDR>
