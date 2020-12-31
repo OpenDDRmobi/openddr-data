@@ -47065,10 +47065,10 @@
 		</device>
 		<device id="LG-LM-K410" parentId="genericLG">
 			<property name="model" value="LM-K410" />
-			<property name="marketing_name" value="V60 ThinQ 5G" />
-			<property name="displayWidth" value="1080" />
-			<property name="displayHeight" value="2460" />
-			<property name="weight" value="173 g" />
+			<property name="marketing_name" value="K41S" />
+			<property name="displayWidth" value="720" />
+			<property name="displayHeight" value="1600" />
+			<property name="weight" value="191.7 g" />
 			<property name="mobile_browser" value="Chrome" />
 			<property name="device_os" value="Android" />
 			<property name="device_os_version" value="9" />
@@ -47086,6 +47086,7 @@
 			<property name="ajax_preferred_geoloc_api" value="w3c_api" />
 			<property name="dual_sim" value="true" />
 			<property name="image_inlining" value="true" />
+			<property name="release-year" value="2020" />
 			<property name="types">
 				<phone>true</phone>
 			</property>
