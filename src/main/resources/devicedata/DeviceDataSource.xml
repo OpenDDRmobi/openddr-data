@@ -29277,6 +29277,15 @@
 			<property name="cpuCores" value="Quad-Core" />
 			<property name="cpuFrequency" value="2150 MHz" />
 			<property name="memoryInternal" value="32/128GB, 4GB RAM" />
+			<property name="sim_size" value="Nano-SIM"/>
+			<property name="pixel_density_ppi" value="534" />
+			<property name="display">
+				<type>AMOLED</type>
+				<diagonal>139.7 mm</diagonal>
+				<aspect_ratio>16:9</aspect_ratio>
+				<material>Gorilla-Glass 4</material>
+				<pixel_density>534 ppi</pixel_density>
+			</property>						
 			<property name="from" value="openddr" />
 		</device>
 		<device id="SCH-S720C" parentId="genericSamsung">
