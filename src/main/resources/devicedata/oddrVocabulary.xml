@@ -55,9 +55,14 @@
    			<xs:complexType name="deviceDisplay">
       			<xs:sequence>
       				<xs:element name="width" datatype="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>
-      				<xs:element name="height" datatype="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>      				
-         			<xs:element name="multiScreen" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+      				<xs:element name="height" datatype="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="aspect_ratio" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="diagonal" type="oddr:unitQuantity" minOccurs="0" maxOccurs="1"/>					
+					<xs:element name="material" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="multiScreen" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="pixel_density" type="oddr:unitQuantity" minOccurs="0" maxOccurs="1"/>         			
          			<xs:element name="screens" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>
+         			<xs:element name="type" type="xs:string" minOccurs="0" maxOccurs="1"/>
       			</xs:sequence>
    			</xs:complexType>
    			<xs:complexType name="deviceMemory">
@@ -239,7 +244,7 @@
 			<Property aspects="device" datatype="oddr:deviceType"
 				defaultAspect="device" name="types" />
 			<Property aspects="device" datatype="oddr:deviceDisplay"
-				defaultAspect="device" name="display" />
+				defaultAspect="device" name="display" />			
 			<Property aspects="device" datatype="oddr:deviceNetwork"
 				defaultAspect="device" name="network" />
 			<Property aspects="device" datatype="oddr:deviceMemory"
@@ -248,6 +253,8 @@
 				defaultAspect="device" name="product_code" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="ean" />
+			<Property aspects="device" datatype="xs:nonNegativeInteger"
+				defaultAspect="device" name="pixel_density_ppi" /><!-- deprecated use display -->		
 		</Properties>
 	</VocabularyDescription>
 </ODDR>
