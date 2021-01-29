@@ -14,8 +14,8 @@
 -->
 <ODDR>
     <version>
-		<ver>1.35-SNAPSHOT</ver>
-		<last_updated>2021-01-03 20:45:00</last_updated>
+		<ver>2.0-SNAPSHOT</ver>
+		<last_updated>2021-01-29 05:00:00</last_updated>
         <official_url>http://openddr.mobi</official_url>
         <statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0</statement>
     </version>
@@ -33,8 +33,6 @@
             <Property name="displayHeight" datatype="xs:nonNegativeInteger" aspects="device" defaultAspect="device"/>
             <Property name="browser" datatype="xs:string" aspects="device" defaultAspect="device"/>
             <Property name="browser_version" datatype="xs:string" aspects="device" defaultAspect="device"/>
-            <Property name="mobile_browser" datatype="xs:string" aspects="device" defaultAspect="device"/><!-- for backward-compatibility -->
-            <Property name="mobile_browser_version" datatype="xs:string" aspects="device" defaultAspect="device"/><!-- for backward-compatibility -->
             <Property name="device_os" datatype="xs:string" aspects="device" defaultAspect="device"/>
             <Property name="device_os_version" datatype="xs:string" aspects="device" defaultAspect="device"/>
             <Property name="nokia_edition" datatype="xs:string" aspects="device" defaultAspect="device"/>

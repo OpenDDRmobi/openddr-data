@@ -8,8 +8,8 @@
 	the specific language governing permissions and limitations under the License. -->
 <ODDR>
 	<version>
-		<ver>1.35-SNAPSHOT</ver>
-		<last_updated>2021-01-03 20:45:00</last_updated>
+		<ver>2.0-SNAPSHOT</ver>
+		<last_updated>2021-01-29 05:00:00</last_updated>
 		<official_url>http://openddr.mobi</official_url>
 		<statement>Licensed under http://www.apache.org/licenses/LICENSE-2.0
 		</statement>
@@ -136,13 +136,13 @@
 				aspects="webBrowser" defaultAspect="webBrowser" />
 			<!-- ODDR property -->
 			<Property aspects="device, webBrowser" datatype="xs:string"
-				defaultAspect="device" name="mobile_browser" />
+				defaultAspect="device" name="browser" />
 			<Property aspects="device" datatype="xs:string"
 				defaultAspect="device" name="device_os" />
 			<Property aspects="device" datatype="xs:integer"
 				defaultAspect="device" name="nokia_series" />
 			<Property aspects="device, webBrowser" datatype="xs:string"
-				defaultAspect="device" name="mobile_browser_version" />
+				defaultAspect="device" name="browser_version" />
 			<Property aspects="device" datatype="xs:boolean"
 				defaultAspect="device" name="is_tablet" />
 			<Property aspects="device" datatype="xs:integer"
